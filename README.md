@@ -1,4 +1,4 @@
-# levelgraph-persons
+# persons
 
 store, retrieve, delete, and search [foaf:person](http://xmlns.com/foaf/spec/#term_Person)s using [levelgraph-jsonld](https://github.com/mcollina/levelgraph-jsonld)
 
@@ -7,7 +7,7 @@ store, retrieve, delete, and search [foaf:person](http://xmlns.com/foaf/spec/#te
 ```
 var level = require('level');
 var db = level('./mydb');
-var persons = require('levelgraph-persons')(db, opts);
+var persons = require('persons')(db, opts);
 ```
 
 ### persons.put(obj, function (err, obj) {

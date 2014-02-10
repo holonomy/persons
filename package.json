@@ -1,14 +1,14 @@
 {
-  "name": "levelgraph-persons",
+  "name": "persons",
   "version": "0.0.0",
-  "description": "put/get/del/search for foaf:persons using levelgraph-jsonld",
+  "description": "put/get/del/search for foaf:persons using jsonld",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/holonomy/levelgraph-persons.git"
+    "url": "git://github.com/holonomy/persons.git"
   },
   "keywords": [
     "level",
@@ -26,6 +26,6 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/holonomy/levelgraph-persons/issues"
+    "url": "https://github.com/holonomy/persons/issues"
   }
 }

@@ -15,6 +15,7 @@ var persons = require('levelgraph-persons')(db, opts);
 Storing persons is extremely easy:
 ```javascript
 var manu = {
+  "@id": "http://manu.sporny.org#person",
   "name": "Manu Sporny",
   "homepage": "http://manu.sporny.org/"
 };
